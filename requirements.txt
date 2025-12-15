@@ -1,0 +1,9 @@
+---
+
+```txt
+beautifulsoup4
+pandas
+sqlalchemy
+openpyxl
+lxml
+requests
