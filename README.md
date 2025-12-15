@@ -48,8 +48,6 @@ O objetivo é demonstrar domínio de:
 - Persistência em banco SQLite com SQLAlchemy
 - Tratamento robusto de exceções em todas as etapas
 
----
-
 ## 📌 Estrutura do Projeto
 
 ```
