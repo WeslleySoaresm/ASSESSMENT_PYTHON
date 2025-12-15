@@ -1,18 +1,4 @@
-Claro, Weslley — aqui está **o README completo, unificado, bilíngue (PT + EN)**, com:
 
-✅ Banner ASCII  
-✅ Badges  
-✅ Diagrama Mermaid  
-✅ Requirements  
-✅ Versão completa em Português  
-✅ Versão completa em Inglês  
-✅ Tudo organizado em um único arquivo pronto para o GitHub  
-
-Você só precisa copiar e colar no seu `README.md`.
-
----
-
-# ✅ **README.md — COMPLETO (PT + EN)**
 
 ```markdown
 # 🐍 Assessment Python — Complete Data Pipeline  
@@ -26,12 +12,11 @@ Web Scraping • Data Structures • CSV • JSON • Pandas • Excel • SQLAl
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 ```text
-███████╗ █████╗ ███████╗███████╗███████╗███████╗███╗   ███╗██████╗ 
-██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝████╗ ████║██╔══██╗
-█████╗  ███████║███████╗█████╗  █████╗  █████╗  ██╔████╔██║██████╔╝
-██╔══╝  ██╔══██║╚════██║██╔══╝  ██╔══╝  ██╔══╝  ██║╚██╔╝██║██╔══██╗
-██║     ██║  ██║███████║███████╗███████╗███████╗██║ ╚═╝ ██║██║  ██║
-╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝
+PPPP   Y   Y TTTTT H   H  OOO  N   N
+P   P   Y Y    T   H   H O   O NN  N
+PPPP     Y     T   HHHHH O   O N N N
+P        Y     T   H   H O   O N  NN
+P        Y     T   H   H  OOO  N   N
         ASSESSMENT PYTHON — WEB SCRAPING • PANDAS • SQL • EXCEL
 ```
 
@@ -70,109 +55,192 @@ style L fill:#d4f9e3,stroke:#0a5
 
 ---
 
-# 🇧🇷 **README — Versão em Português**
+Claro, Weslley. Vou montar um **README.md profissional**, organizado, claro e digno de um repositório GitHub técnico — refletindo todo o pipeline que você construiu do Exercício 1 ao 12.
 
-## ✅ Sobre o Projeto
+Ele será estruturado como um projeto real, com seções bem definidas, explicações objetivas, blocos de código, instruções de execução e visão geral do fluxo completo.
 
-Este repositório contém um pipeline completo de dados desenvolvido ao longo de 12 exercícios progressivos, cobrindo:
-
-- Web scraping com BeautifulSoup  
-- Estruturas de dados (listas, dicionários, sets)  
-- Exportação para CSV e JSON  
-- Manipulação com Pandas  
-- Relatórios em Excel  
-- Persistência em SQLite com SQLAlchemy  
-- Tratamento robusto de exceções  
-
-Cada arquivo `Q0X.py` representa uma etapa incremental do pipeline.
+Abaixo está o **README.md pronto para colar no GitHub**.
 
 ---
 
-## ✅ Como Executar
+# ✅ **README.md — Assessment Python (Web Scraping, Pandas, JSON, SQL, Excel e SQLAlchemy)**
 
+```markdown
+# 🐍 Assessment Python — Pipeline Completo de Dados  
+Web Scraping • Estruturas de Dados • CSV • JSON • Pandas • Excel • SQLAlchemy • Tratamento de Exceções
+
+Este repositório contém um pipeline completo de processamento de dados desenvolvido ao longo de 12 exercícios progressivos.  
+O objetivo é demonstrar domínio de:
+
+- Extração de dados estruturados
+- Manipulação com listas, dicionários e sets
+- Exportação para CSV e JSON
+- Carregamento parcial com Pandas
+- Filtragem e transformação
+- Geração de relatórios em Excel
+- Persistência em banco SQLite com SQLAlchemy
+- Tratamento robusto de exceções em todas as etapas
+
+---
+
+## 📌 Estrutura do Projeto
+
+```
+ASSESSMENT_PYTHON/
+│
+├── Q01.py  → Extração HTML (BeautifulSoup)
+├── Q02.py  → Conversão da tabela em lista de dicionários
+├── Q03.py  → Construção de dicionário indexado + detecção de duplicatas
+├── Q04.py  → Exportação para CSV
+├── Q05.py  → Exportação e leitura de JSON
+├── Q06.py  → Carregamento parcial de CSV com Pandas
+├── Q07.py  → Manipulação de JSON com Pandas
+├── Q08.py  → Exportação para Excel
+├── Q09.py  → Pipeline SQL básico com SQLAlchemy
+├── Q010.py → Diagnóstico de erros (sem correção)
+├── Q011.py → Correção da etapa de leitura + KeyError
+├── Q012.py → Pipeline SQL robusto com try/except/finally
+│
+└── dados_scraping.csv / dados_scraping.json / relatorio_final.xlsx
+```
+
+---
+
+## ✅ **Resumo dos Exercícios**
+
+### **Q01 — Extração da Tabela HTML**
+- Uso de BeautifulSoup
+- Conversão da tabela em estrutura navegável
+
+### **Q02 — Lista de Dicionários**
+- Cada linha da tabela vira um dicionário
+- Cada coluna vira uma chave
+
+### **Q03 — Dicionário Indexado + Set**
+- Indexação por coluna única (ex.: `"Game"`)
+- Detecção de duplicatas com `set`
+- Relatório final:
+
+```
+Total de registros: X
+Total de valores únicos: Y
+Duplicatas encontradas: [...]
+```
+
+### **Q04 — Exportação para CSV**
+- Uso de `csv.DictWriter`
+- Tratamento de exceções de escrita
+
+### **Q05 — Exportação e Leitura de JSON**
+- `json.dump` e `json.load`
+- Tratamento de erros de leitura/escrita
+
+### **Q06 — Carregamento Parcial com Pandas**
+- `usecols=[...]`
+- Ordenação por coluna específica
+
+### **Q07 — Manipulação de JSON com Pandas**
+- `pd.read_json`
+- Necessidade de `df.T` (transposição)
+- Renomeação de colunas
+- Filtros por valores
+
+### **Q08 — Exportação para Excel**
+- `df.to_excel(..., index=False)`
+- Geração de relatório final
+
+### **Q09 — SQLAlchemy Básico**
+- Engine SQLite em memória
+- Escrita e leitura via Pandas
+
+### **Q10 — Diagnóstico de Erros**
+- Identificação de:
+  - FileNotFoundError
+  - KeyError
+  - UnboundLocalError
+  - OperationalError
+- Sem correção — apenas análise
+
+### **Q11 — Correção da Leitura + KeyError**
+- Uso de `StringIO`
+- Blocos `try/except/else/pass`
+- Pipeline continua mesmo com falhas
+
+### **Q12 — Pipeline SQL Robusto**
+- Conexão protegida com try/except
+- Escrita com try/except/else
+- Query com try/except
+- Encerramento com finally
+- Mensagem final:
+
+```
+Pipeline corrigido e executado com sucesso!
+```
+
+---
+
+## 🚀 **Como Executar o Projeto**
+
+### 1. Clonar o repositório
 ```bash
 git clone https://github.com/seuusuario/ASSESSMENT_PYTHON.git
 cd ASSESSMENT_PYTHON
-pip install -r requirements.txt
-python3 Q012.py
 ```
 
----
-
-## ✅ requirements.txt
-
-```txt
-beautifulsoup4
-pandas
-sqlalchemy
-openpyxl
-lxml
-requests
-```
-
----
-
-## ✅ Licença
-
-MIT — livre para estudo e evolução.
-
----
-
-# 🇺🇸 **README — English Version**
-
-## ✅ About the Project
-
-This repository contains a complete data pipeline built across 12 progressive exercises, covering:
-
-- Web scraping with BeautifulSoup  
-- Data structures (lists, dictionaries, sets)  
-- CSV and JSON export  
-- Pandas transformations  
-- Excel reporting  
-- SQLite persistence with SQLAlchemy  
-- Robust exception handling  
-
-Each `Q0X.py` file represents a stage of the pipeline.
-
----
-
-## ✅ How to Run
-
+### 2. Criar ambiente virtual (opcional)
 ```bash
-git clone https://github.com/youruser/ASSESSMENT_PYTHON.git
-cd ASSESSMENT_PYTHON
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Instalar dependências
+```bash
 pip install -r requirements.txt
+```
+
+### 4. Executar qualquer exercício
+```bash
+python3 Q07.py
 python3 Q012.py
 ```
 
 ---
 
-## ✅ requirements.txt
+## 📦 **Tecnologias Utilizadas**
 
-```txt
-beautifulsoup4
-pandas
-sqlalchemy
-openpyxl
-lxml
-requests
-```
-
----
-
-## ✅ License
-
-MIT — free for study and evolution.
-
-```
+- Python 3.x  
+- BeautifulSoup4  
+- Pandas  
+- SQLAlchemy  
+- SQLite  
+- JSON / CSV / Excel  
+- Tratamento avançado de exceções  
 
 ---
 
-Se quiser, posso gerar também:
+## 🧠 **Conceitos Trabalhados**
 
-✅ **Makefile profissional**  
-✅ **run_all.py** para executar tudo em sequência  
-✅ **Diagrama UML das funções**  
-✅ **Versão HTML estilizada do README**  
+- Web scraping estruturado  
+- Estruturas de dados eficientes  
+- Persistência em múltiplos formatos  
+- Pipelines resilientes  
+- SQL + Pandas  
+- Tratamento de erros em produção  
 
-Só pedir.
+---
+
+## ✅ **Resultado Final**
+
+Ao final do projeto, você terá:
+
+- Um pipeline completo e robusto
+- Capaz de extrair, transformar, validar, persistir e consultar dados
+- Com tolerância a falhas e logs claros
+- Pronto para ser expandido para ETLs reais
+
+---
+
+## 📄 Licença
+
+Este projeto é livre para estudo e evolução.
+
