@@ -13,10 +13,9 @@ O objetivo é demonstrar domínio de:
 - Filtragem e transformação  
 - Geração de relatórios em Excel  
 - Persistência em banco SQLite com SQLAlchemy  
-- Tratamento robusto de exceções  
-
+- Tratamento robusto de exceções
+```
 ---
-
 
 # ✅ Estrutura do Repositório
 ```
@@ -37,7 +36,8 @@ Cada arquivo representa uma etapa incremental do pipeline:
 
 
 ```
----✅ Como Executar
+---
+# ✅ Como Executar
 
 ```bash
 git clone https://github.com/seuusuario/ASSESSMENT_PYTHON.git
