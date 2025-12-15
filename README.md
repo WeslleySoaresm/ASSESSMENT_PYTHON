@@ -1,27 +1,4 @@
 
-
-```markdown
-# 🐍 Assessment Python — Complete Data Pipeline  
-Web Scraping • Data Structures • CSV • JSON • Pandas • Excel • SQLAlchemy • Error Handling
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow.svg)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-red.svg)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-Web%20Scraping-green.svg)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
-
-```text
-PPPP   Y   Y TTTTT H   H  OOO  N   N
-P   P   Y Y    T   H   H O   O NN  N
-PPPP     Y     T   HHHHH O   O N N N
-P        Y     T   H   H O   O N  NN
-P        Y     T   H   H  OOO  N   N
-        ASSESSMENT PYTHON — WEB SCRAPING • PANDAS • SQL • EXCEL
-```
-
----
-
 # 🔄 Pipeline Completo — Visão Geral / Full Pipeline Overview
 
 ```mermaid
@@ -53,17 +30,7 @@ style K fill:#f4d4f9,stroke:#a0a
 style L fill:#d4f9e3,stroke:#0a5
 ```
 
----
 
-Claro, Weslley. Vou montar um **README.md profissional**, organizado, claro e digno de um repositório GitHub técnico — refletindo todo o pipeline que você construiu do Exercício 1 ao 12.
-
-Ele será estruturado como um projeto real, com seções bem definidas, explicações objetivas, blocos de código, instruções de execução e visão geral do fluxo completo.
-
-Abaixo está o **README.md pronto para colar no GitHub**.
-
----
-
-# ✅ **README.md — Assessment Python (Web Scraping, Pandas, JSON, SQL, Excel e SQLAlchemy)**
 
 ```markdown
 # 🐍 Assessment Python — Pipeline Completo de Dados  
