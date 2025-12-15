@@ -19,7 +19,7 @@ O objetivo é demonstrar domínio de:
 
 
 # ✅ Estrutura do Repositório
-
+```
 Cada arquivo representa uma etapa incremental do pipeline:
 
 - **Q01** — Extração HTML com BeautifulSoup  
@@ -35,9 +35,9 @@ Cada arquivo representa uma etapa incremental do pipeline:
 - **Q11** — Correção da leitura + tratamento de KeyError  
 - **Q12** — Pipeline SQL robusto com try/except/finally  
 
----
 
-# ✅ Como Executar
+```
+---✅ Como Executar
 
 ```bash
 git clone https://github.com/seuusuario/ASSESSMENT_PYTHON.git
@@ -65,7 +65,6 @@ requests
 
 MIT — livre para estudo e evolução.
 
-```
 
 
 
